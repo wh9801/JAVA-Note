@@ -10,3 +10,4 @@ JAVA 学习笔记
   - 编码
 
 [2020.06.15](https://github.com/hanhan1207/JAVA-Note/issues/2)
+  - JavaBean
