@@ -11,3 +11,4 @@ JAVA 学习笔记
 
 [2020.06.15](https://github.com/hanhan1207/JAVA-Note/issues/2)
   - JavaBean
+  - 枚举类：Enum
