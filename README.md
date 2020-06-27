@@ -1,6 +1,7 @@
 # JAVA-Note
 JAVA 学习笔记
 
+## 2020.06.14
 [2020.06.14](https://github.com/hanhan1207/JAVA-Note/issues/1) 
   - 包装类型
   - 自动装箱、拆箱
@@ -8,7 +9,8 @@ JAVA 学习笔记
   - StringBuilder
   - StringJoiner
   - 编码
-
+  
+## 2020.06.15
 [2020.06.15](https://github.com/hanhan1207/JAVA-Note/issues/2)
   - JavaBean
   - 枚举类：Enum
