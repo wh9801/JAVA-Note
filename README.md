@@ -33,3 +33,10 @@ JAVA 学习笔记
       - 权限修饰符的不同
         - 属性：可以在声明属性时，使用权限修饰符。
         - 常用的权限修饰符：private、public、缺省、protected  ---> 封装性
+        - 局部变量：不可以使用修饰符
+      - 默认初始化值
+        - 属性：整型（byte、short、int、long）：0  
+               浮点型（float、double）：0.0  
+               字符型（char）：0（或'\u0000'）  
+               布尔型（boolean）：false  
+               引用数据类型（类、数组、接口）：null  
