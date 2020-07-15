@@ -106,7 +106,10 @@ JAVA 学习笔记
   - 继承性的格式： class A extends B {}
     - A：子类、派生类、subclass  
       B：父类、超类、基类、superclass
-    - 
+    - 子类 A 继承了 父类 B 的所有属性和方法  
+      特别地，如果父类 B 定义了 private 属性或方法，子类 A 仍然继承了，只是由于封装性，不能直接调用该属性或方法（需要用get()/set()）
+      
+  - Java不支持多继承（C++支持），Java中所有类都继承于Object类（除了java.lang.Object自己）
       
     
     
