@@ -151,7 +151,12 @@ JAVA 学习笔记
     - 引用数据类型：比较变量指向的地址是否相同
     
   - equals() 的使用
-    -   
+    - 对象/引用.equals(对象/引用)
+    - Object类的equals()返回this.obj == obj，所以仍是比较地址，如果要对两个对象的实体内容比较，需要重写（String类重写了该方法）
+  
+  - toString()的使用
+    - Object类返回的是对象的类名+对象所在的内存地址
+    - String,Date等类均对toString()进行了重写
     
     
     
