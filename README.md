@@ -160,7 +160,9 @@ JAVA 学习笔记
     
 ## 2020.07.28
   - 基本数据类型、包装类和String三者之间的相互转换
-    - 
+    - 自动装箱、拆箱: 基本数据类型和包装类相互转换
+    - 基本数据类型、包装类 -> String: valueOf(Xxx xx)
+    - String -> 基本数据类型、包装类：parseXxx(String s)
     
     
     
