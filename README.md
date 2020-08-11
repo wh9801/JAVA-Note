@@ -282,7 +282,35 @@ JAVA 学习笔记
       - 在成员内部类种区分调用外部类的结构
       - 开发局部内部类的使用
       
-     
+## 2020.08.11
+  - 异常
+    - Error：JVM无法解决的严重问题，比如：JVM内部错误、资源耗尽等，StackOverflowError,OutOfMemoryError。
+    - Exception：因编程错误或偶然的外在因素导致的一般性问题，可以用针对性的代码进行处理
+        - 编译时异常（checked）
+          - IOException
+            - FileNotFoundException
+          - ClassNotFoundException
+          - ...
+        - 运行时异常（unchecked）
+          - NullPointerException
+          - ArrayIndexOutOfBoundsException
+          - ClassCastException
+          - ...
+        - 异常处理机制
+          - try-catch-finally
+              - finally 不是必要的
+              - 使用 try 将可能出现异常的代码包装起来，执行过程中，一旦出现异常，就会生成一个对应异常类的对象，根据此对象的类型，去catch中匹配
+              - 一旦 try 中的异常匹配到一个 catch 时，进入该 catch 方法体内运行，并跳出try-catch结构(无finally时)，执行后面的代码
+              - catch 中的异常类型如果无子父类关系，则无先后顺序分别；如果有子父类关系，则子异常应放在父异常之前
+              - 常用的异常对象的处理方式
+                - String getMessage(e)
+                - printStackTrace(e)
+              - try 结构中声明的变量，try外部不可调用
+              - finally 中声明的一定是会被执行的代码。即使 catch 中也出现了异常，或 try 中有 return 语句，或 catch 中有 return 语句
+              - 像数据库链接、输入输出流、Socket连接等资源，JVM不能自动回收，需要手动释放资源，此时需要在finally中实现释放资源
+              - try-catch-finally结构可以嵌套
+          - throws + 异常类型
+          
     
       
     
